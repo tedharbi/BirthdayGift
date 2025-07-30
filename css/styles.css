@@ -129,7 +129,7 @@ body {
   font-size: 1.2em;
   margin: 0;
   overflow-x: hidden;
-  background-image: url("https://raw.githubusercontent.com/tedharbi/BirthdayGift/main/img/bgpink.svg") fixed center/cover,
+  background-image: url(img/bgpink.svg") fixed center/cover,
     linear-gradient(to bottom, #ffd1df, #ffd1df);
   cursor: url("img/love.png") 16 16, auto;
 }
