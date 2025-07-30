@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+.calculator {
+  padding: 10px;
+  border-radius: 1em;
+  height: 380px;
+  width: 400px;
+  margin: auto;
+  background-color: salmon;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-family: "Raleway", sans-serif; /* Updated font */
+  font-weight: 500; /* Updated font weight */
+}
+
+.upper {
+  color: lightgoldenrodyellow;
+  font-family: "Raleway", sans-serif; /* Updated font */
+  font-weight: 600; /* Updated font weight */
+  font-size: 20px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+
+body {
+  background-image: url(/img/beachbg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 150px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.display-box {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 600; /* Updated font weight */
+  background-color: lemonchiffon;
+  border: solid black 0.5px;
+  color: black;
+  border-radius: 15px;
+  width: 98%;
+  height: 65%;
+}
+
+#btn {
+  background-color: moccasin;
+}
+
+input[type="button"] {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 600; /* Updated font weight */
+  background-color: plum;
+  color: black;
+  border: solid black 0.5px;
+  width: 100%;
+  border-radius: 15px;
+  height: 70%;
+  outline: none;
+}
+
+input:active[type="button"] {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+                   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark background with transparency */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;  /* Rounded corners */
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the box */
+    text-align: center; /* Center align text */
+}
+
+.modal-content h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.modal-content p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-button,
+.submit-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.close-button {
+    color: white;
+        background-color:  coral;);
+
+}
+
+.submit-button {
+    color: white;
+    background-color:  coral;
+}
+
+.close-button:hover {
+      background-color: darkmagenta;
+    text-decoration: none;
+
+}
+
+.submit-button:hover {
+    background-color: darkmagenta;
+}
+
